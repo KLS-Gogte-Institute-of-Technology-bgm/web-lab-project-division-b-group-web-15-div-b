@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.Sec-news{
+    width: 100%;
+    height: 240vh;
+    background: url('../IMAGES/9.jpg');
+    background-size: cover;
+}
+ 
+.Sec-news .leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Sec-news .leftbox .content{
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 40px;
+    transition: .5s;
+}
+
+.Sec-news .leftbox .content:hover{
+    background: #e91e63;
+}
+
+.Sec-news .leftbox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.line-2{
+    background-color: ivory;
+    height: 2px;
+}
+
+.Sec-news .leftbox .content p{
+    margin-top: 5px;
+}
+
+.facts{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Sec-news .facts .content{
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 40px;
+    transition: .5s;
+    text
+}
+
+.Sec-news .facts .content:hover{
+    background: #e91e63;
+}
+
+.content-list{
+    padding: 21px;
+}
+
+.Sec-news .facts .content h1{
+    text-align: center;
+    font-size: 59px;
+    padding-bottom: 18px;
+}

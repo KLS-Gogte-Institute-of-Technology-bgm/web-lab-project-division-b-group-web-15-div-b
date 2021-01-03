@@ -1,0 +1,30 @@
+.v-section{
+    border: 2px solid black;
+    background: rgba( 0, 0, 0, 0.7) url('../IMAGES/14.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    text-align-last: center;
+    border: 6px solid white;
+    padding: 40px;
+}
+
+.video-1{
+    margin-bottom: 30px;
+}
+
+.video-text{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Exo';
+    padding: 40px;
+    background: rgba( 0, 0, 0, 0.7) url('../IMAGES/12.jpg');
+    border: 6px solid black;
+}
+
+video{
+    padding: 25px;
+    border: 2px solid white;
+}
+
+
+
